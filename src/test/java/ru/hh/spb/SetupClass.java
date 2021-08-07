@@ -3,15 +3,21 @@ package ru.hh.spb;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.opera.OperaDriver;
 
-public class SetupClass {
+import java.io.File;
 
-    static WebDriver driver;
+public abstract class SetupClass {
+
+    static ChromeDriver driver;
+
     @BeforeClass
     public static void setupBrowser() {
-        System.setProperty("webdriver.gecko.driver", "D:\\StudyingTest\\geckodriver.exe");
-        driver = new FirefoxDriver();
+        ChromeDriverService service = new ChromeDriverService.Builder()
+                .usingDriverExecutable(new File("D:\\StudyingTest\\operadriver_win64\\operadriver.exe")).build();
+        driver = new ChromeDriver(service);
     }
 
     @AfterClass
