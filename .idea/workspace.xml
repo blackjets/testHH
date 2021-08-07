@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2388c8c-f54e-40d9-ba0d-787e21c73834" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/hh/spb/YandexPageTest.java" afterDir="false" />
+    <list default="true" id="f2388c8c-f54e-40d9-ba0d-787e21c73834" name="Default Changelist" comment="add XPath test cases for Yandex main page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/hh/spb/MainPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/hh/spb/HHPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/hh/spb/SetupClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/hh/spb/SetupClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testHH.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/hh/spb/YandexPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/hh/spb/YandexPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +117,7 @@
     <property name="project.structure.side.proportion" value="0.19812427" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="JUnit.HHPageTest.checkAllBtns">
+  <component name="RunManager" selected="JUnit.YandexPageTest.checkUserSearch">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -196,7 +190,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YandexPageTest.getSearchByXPath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="YandexPageTest.checkUserSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="testHH" />
       <extension name="coverage">
         <pattern>
@@ -206,7 +200,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.hh.spb" />
       <option name="MAIN_CLASS_NAME" value="ru.hh.spb.YandexPageTest" />
-      <option name="METHOD_NAME" value="getSearchByXPath" />
+      <option name="METHOD_NAME" value="checkUserSearch" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -231,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.YandexPageTest.checkUserSearch" />
         <item itemvalue="JUnit.HHPageTest.checkAllBtns" />
         <item itemvalue="JUnit.HHPageTest" />
         <item itemvalue="JUnit.YandexPageTest" />
         <item itemvalue="JUnit.YandexPageTest.checkThatBtnIsSearch2" />
-        <item itemvalue="JUnit.YandexPageTest.getSearchByXPath" />
       </list>
     </recent_temporary>
   </component>
@@ -251,6 +245,21 @@
       <option name="presentableId" value="Default" />
       <updated>1581202988144</updated>
     </task>
+    <task id="LOCAL-00001" summary="add XPath test cases for Yandex main page">
+      <created>1628296531826</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1628296531826</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add XPath test cases for Yandex main page">
+      <created>1628296624028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628296624028</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -327,6 +336,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add XPath test cases for Yandex main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add XPath test cases for Yandex main page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../../../../Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Comparator.java">
